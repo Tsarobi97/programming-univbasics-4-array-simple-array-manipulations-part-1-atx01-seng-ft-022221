@@ -1,5 +1,11 @@
 def using_push(array, string)
-  array.push
+  array.push(string)
 end 
 
-using
+def using_unshift(array, string)
+ array.unshift(string)
+end
+
+def using_pop(array,string)
+  array.pop
+end
